@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@drawable/splash">
+
+    <TextView
+        android:id="@+id/mc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="591dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="@font/beautymountains"
+        android:gravity="center"
+        android:text="My Chronicles"
+        android:textColor="#4098c8"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/alessa"
+        android:gravity="center"
+        android:text="A Secure Digital Diary with AES Encryption"
+        android:textColor="#4098c8"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
